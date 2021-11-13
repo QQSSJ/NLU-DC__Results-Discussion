@@ -25,7 +25,7 @@ from sentence_transformers.util import  pytorch_cos_sim
 model = SentenceTransformer('paraphrase-mpnet-base-v2')
 
 
-lakes = pd.read_excel('refs_keywords.xlsx')
+lakes = pd.read_excel('refs_keywords_final.xlsx')
 keywords = pd.read_excel('keywords_post.xlsx')
 keywords_dict = defaultdict(str)
 keywords_class = defaultdict(str)
